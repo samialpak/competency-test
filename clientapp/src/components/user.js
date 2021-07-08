@@ -46,7 +46,7 @@ export default class User extends React.Component {
       }
 
       if(typeof fields["name"] !== "undefined"){
-         if(!fields["name"].match(/^[a-zA-Z]+$/)){
+         if(!fields["name"].match(/^[a-zA-Z\s]+$/)){
             formIsValid = false;
             errors["name"] = "Name has only letters";
          }        
