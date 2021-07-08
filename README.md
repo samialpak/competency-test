@@ -5,7 +5,7 @@ This repository includes 3 projects:
 
 2. <b>'nodeapp'</b>: This project is a <b>nodejs</b> project. The project has <ins>nunjucks, http-proxy, express, axios, config</ins> packages. And this project has <ins>clientapp\build</ins> folder. In this folder, there are 3 files: <ins>index.html, index.bundle.js, favicon.ico</ins>. These files are copied from <ins>clientapp</ins> React frontend project. For details, you can go to the 'nodeapp' [readme](./nodeapp/README.md).
 
-3. <b>'javaapp'</b>: This project is a <b>java spring-boot<b> project. <ins>java 11, spring-boot 2.5.2, gradle 7.1.1, spring-boot-starter-data-mongodb</ins> are used in this project. <ins>mongodb atlas</ins> is used as database. For details, you can go to the 'javaapp' [readme](./javaapp/README.md).
+3. <b>'javaapp'</b>: This project is a <b>java spring-boot</b> project. <ins>java 11, spring-boot 2.5.2, gradle 7.1.1, spring-boot-starter-data-mongodb</ins> are used in this project. <ins>mongodb atlas</ins> is used as database. For details, you can go to the 'javaapp' [readme](./javaapp/README.md).
 
 For the flow you can see image at below:
 
