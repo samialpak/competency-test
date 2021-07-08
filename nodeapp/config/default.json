@@ -1,0 +1,5 @@
+{
+    "countryApiUrl": "https://restcountries.eu/rest/v1/region/Europe",
+    "htmlPagesPath": "./clientapp/build",
+    "javaApiUrl": "http://localhost:8080"
+  }

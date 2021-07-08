@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.form-item-height {
+  min-height: 16px !important;
+}
+
+.form-item-border {
+  border: 1px solid #000 !important;
+}
+
+.form-table {
+  margin-left:auto !important; 
+  margin-right:auto !important;
+}
+
+.form-table-body {
+  text-align: left !important;
+}
+
+.col-md-6 {
+  min-width: 120px !important;
+}
+
+.col-md-12 {
+  min-width: 120px !important;
+}
