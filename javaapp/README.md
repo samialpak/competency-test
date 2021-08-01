@@ -48,4 +48,6 @@ App is opened on [http://localhost:8080](http://localhost:8080).
 Run the tests with `spring-boot-starter-test`. Tests are in `src/test/java/com.scrumconnect.api.controller/` folder. Details for tests, you can see files in this folder.
 After successfully ending this script, for the test results you can see `{JAVAAPP_HOME_PATH}\build\reports\tests\test\index.html`
 
+NOTE: In Ubuntu/Linux, you should add `bash` command to start of the `gradlew` commands. For example: `bash ./gradlew build --refresh-dependencies`.
+
 
