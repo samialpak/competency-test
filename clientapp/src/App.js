@@ -1,6 +1,7 @@
 import './App.css';
 import Success from './components/success';
 import User from './components/user';
+import Login from './components/Login';
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,7 +14,8 @@ function App() {
       <Router>
         <div>
           <Switch>
-            <Route path="/" exact component={User} />
+            <Route path="/" exact component={Login} />
+            <Route path="/user" component={User} />
             <Route path="/success" component={Success} />
           </Switch>
         </div>
