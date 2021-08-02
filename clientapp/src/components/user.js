@@ -123,6 +123,14 @@ export default class User extends React.Component {
       this.setState({fields});
    }
 
+   openAddCakePage(e){
+     this.props.history.push("/addcake");
+   }
+
+   openListCakesPage(e){
+     this.props.history.push("/listcakes");
+   }
+
    render(){
       return (
          <div>
@@ -219,6 +227,16 @@ export default class User extends React.Component {
                            <button type="submit" className="form-item-height">Apply</button>
                         </td>
                         <td className="col-md-6"></td>
+                     </tr>
+
+                     <tr className="col-md-12">
+                        <td className="col-md-6">
+                          <button onClick={this.openAddCakePage.bind(this)} className="form-item-height">Open Add Cake Page</button>
+                        </td>
+
+                        <td className="col-md-6">
+                          <button onClick={this.openListCakesPage.bind(this)} className="form-item-height">Open List Cakes Page</button>
+                        </td>
                      </tr>
                   </tbody>
                </table>

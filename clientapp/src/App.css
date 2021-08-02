@@ -25,12 +25,24 @@
 }
 
 .form-table {
-  margin-left:auto !important; 
+  margin-left:auto !important;
   margin-right:auto !important;
 }
 
 .form-table-body {
   text-align: left !important;
+}
+
+.form-table-th {
+  width: 100px;
+  max-width: 200px;
+  text-align: center;
+}
+
+.form-table-tr {
+  width: 100px;
+  max-width: 200px;
+  overflow-wrap: break-word;
 }
 
 .col-md-6 {
